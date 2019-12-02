@@ -1,3 +1,4 @@
+cd ~;
 sudo apt install --upgrade;
 sudo apt install update;
 sudo apt install vim -y;
