@@ -10,4 +10,5 @@ cp ~/Pwngdb/.gdbinit ~/;
 sudo apt install python-pip -y;
 pip install pwntools --user;
 wget gg.gg/pip_repair -O pip;
+chmod +x ./pip;
 sudo cp ~/pip /usr/bin/;
