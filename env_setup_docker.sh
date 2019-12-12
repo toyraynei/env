@@ -10,4 +10,4 @@ git clone https://github.com/longld/peda.git ~/peda;
 git clone https://github.com/scwuaptx/Pwngdb.git;
 cp ~/Pwngdb/.gdbinit ~/;
 git clone https://github.com/radareorg/radare2.git;
-sys/install.sh;
+radare2/sys/install.sh;
