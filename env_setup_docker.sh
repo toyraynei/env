@@ -1,6 +1,6 @@
 apt update;
 apt install --upgrade;
-apt install gem gdb wget vim git python python-pip -y;
+apt install ruby gdb wget vim git python python-pip -y;
 pip install --upgrade pip;
 wget https://raw.githubusercontent.com/toyraynei/env/master/pip;
 chmod +x ./pip;
