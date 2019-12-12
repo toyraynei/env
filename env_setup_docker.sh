@@ -1,0 +1,13 @@
+apt update;
+apt install --upgrade;
+apt install gdb, wget, vim, git, python, python-pip -y;
+pip install --upgrade pip;
+wget https://raw.githubusercontent.com/toyraynei/env/master/pip;
+chmod +x ./pip;
+mv ./pip /usr/bin/;
+pip install pwntools;
+git clone https://github.com/longld/peda.git ~/peda;
+git clone https://github.com/scwuaptx/Pwngdb.git;
+cp ~/Pwngdb/.gdbinit ~/;
+git clone https://github.com/radareorg/radare2.git;
+sys/install.sh;
