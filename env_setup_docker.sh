@@ -1,6 +1,6 @@
 apt update;
 apt install --upgrade;
-apt install gdb wget vim git python python-pip -y;
+apt install gem gdb wget vim git python python-pip -y;
 pip install --upgrade pip;
 wget https://raw.githubusercontent.com/toyraynei/env/master/pip;
 chmod +x ./pip;
@@ -11,3 +11,4 @@ git clone https://github.com/scwuaptx/Pwngdb.git;
 cp ~/Pwngdb/.gdbinit ~/;
 git clone https://github.com/radareorg/radare2.git;
 radare2/sys/install.sh;
+gem install one_gadget;
